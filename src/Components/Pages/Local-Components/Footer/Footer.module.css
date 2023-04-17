@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer main {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  /* font-family: sans-serif; */
+}
+
+.footer div {
+  font-size: 20px;
+  font-weight: 600;
+  color: #555555;
+  /* font-family: sans-serif; */
+}
+.addressBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  gap: 1.5rem;
+  text-align: flex-start;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerColumn div {
+  font-weight: 300;
+}
+
+.textWithLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

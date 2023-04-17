@@ -1,0 +1,36 @@
+/* Default Button */
+
+.defaultButtonBox {
+  color: white;
+  background-color: #f54749;
+  width: 120px;
+  height: 55px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.defaultButtonContent {
+  font-size: 20px;
+}
+
+/* Outlined Button */
+.OutlinedButtonBox {
+  color: #f54749;
+  background-color: transparent;
+  width: 120px;
+  height: 55px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f54749;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.outlinedButtonContent {
+  font-size: 20px;
+}

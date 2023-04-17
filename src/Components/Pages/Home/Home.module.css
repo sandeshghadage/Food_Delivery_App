@@ -1,0 +1,122 @@
+.mainBox {
+  padding-left: 11em;
+  padding-right: 7em;
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#heroImg {
+  max-height: 480px;
+  max-width: 640px;
+}
+
+.heroText {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.heroSubtitle {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.heroContent {
+  max-width: 60%;
+}
+
+.orderBtn {
+  margin-top: 40px;
+}
+
+.bestServiceSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bestServiceSection img {
+  margin-left: 4%;
+  scale: 1.4;
+}
+
+.bestServiceText {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.bestServiceContent {
+  max-width: 50%;
+  margin-right: 4%;
+}
+
+.addressInput {
+  margin-top: 40px;
+  display: flex;
+  gap: 3%;
+}
+
+.addressInput input {
+  width: 60%;
+  font-size: 1.3rem;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+
+.blackSection {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 6rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer main {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  /* font-family: sans-serif; */
+}
+
+.footer div {
+  font-size: 20px;
+  font-weight: 600;
+  color: #555555;
+  /* font-family: sans-serif; */
+}
+.addressBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  gap: 1.5rem;
+  text-align: flex-start;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footerColumn div {
+  font-weight: 300;
+}
+
+.textWithLogo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

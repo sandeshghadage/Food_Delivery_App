@@ -1,0 +1,65 @@
+
+.reviewContainer{
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.profileContainer {
+    display: flex;
+}
+
+.reviewProfile {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    right: 0px;
+}
+
+.reviewProfile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* resize: ; */
+    
+   
+}
+
+
+.reviewSection{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewSection .starIcon{ 
+    width: 30px;
+    height: 30px;
+    color: #f54749;
+    
+}
+
+.reviewDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviewFontClass{
+    font-Size: 18px;
+    font-Weight: 700;
+    color: #555555;
+}
+
+/* .reviewProfil {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid white;
+    position: relative;
+    right: 15px;
+} */

@@ -1,0 +1,19 @@
+#icon {
+    color: #f54749;
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.logo {
+    min-width: 70px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-weight: 700;
+}
+
+.logo div {
+    color: #555555;
+}

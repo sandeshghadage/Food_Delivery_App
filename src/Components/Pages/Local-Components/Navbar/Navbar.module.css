@@ -1,0 +1,53 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 3.7em;
+    padding-left: 11em;
+    padding-right: 7em; */
+  /* background-color: black; */
+  padding-left: 11em;
+  padding-right: 7em;
+}
+
+.NavTabs {
+  display: flex;
+  gap: 20px;
+}
+
+.Navbar li {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.link {
+  color: #555555;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.profileIcon {
+  width: 2em;
+  height: 2em;
+  /* background-color: black; */
+}
+
+.searchIcon {
+  color: #555555;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.cartIcon {
+  color: #555555;
+  min-height: 30px;
+  min-width: 30px;
+}
+
+.navbarRightComp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
