@@ -1,12 +1,12 @@
 import * as React from "react";
 import style from "./Home.module.css";
 import ButtonDefault from "../../utils/Buttons/ButtonDefault";
-import ReviewContainer from "../Local-Components/Review-Container/ReviewContainer";
 import { Grid } from "@mui/material";
 import Box from "@mui/material/Box";
 import WhiteSpace from "../../utils/WhiteSpace";
 import FoodCard from "./Local-Components/FoodCard";
 import ButtonOutlined from "../../utils/Buttons/ButtonOutlined";
+import ReviewContainer from "./Local-Components/Review-Container/ReviewContainer";
 
 export default function Home() {
   const heroImgUrl =
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <ReviewContainer />
           </div>
-          <img id={style.heroImg} src={heroImgUrl} alt="image" />
+          <img id={style.heroImg} src={heroImgUrl} alt="altimage" />
         </div>
 
         <Grid container my={20} spacing={4}>
@@ -84,7 +84,7 @@ export default function Home() {
           <img
             id={style.heroImg}
             src="https://png.pngtree.com/png-vector/20230124/ourmid/pngtree-delivery-bike-png-image_6572041.png"
-            alt="image"
+            alt="altimage"
           />
           <div className={style.bestServiceContent}>
             <div
@@ -137,7 +137,7 @@ export default function Home() {
           <img
             id={style.heroImg}
             src="https://cdni.iconscout.com/illustration/premium/thumb/doorstep-delivery-4490968-3726859.png"
-            alt="image"
+            alt="altimage"
           />
         </div>
         <WhiteSpace height="14rem" />
@@ -148,7 +148,7 @@ export default function Home() {
           <img
             id={style.heroImg}
             src="https://www.pngall.com/wp-content/uploads/12/Delivery-Scooter-PNG-Image.png"
-            alt="image"
+            alt="altimage"
           />
           <div className={style.bestServiceContent}>
             <div
