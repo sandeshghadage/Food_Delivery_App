@@ -46,32 +46,35 @@ export default function Home() {
         <Grid container my={20} spacing={4}>
           <Grid item xs={4}>
             <Box>
-              <FoodCard foodImgUrl={foodImgUrl[0]} />
+              <FoodCard foodImgUrl={foodImgUrl[0]} name={"365 Easy Salad"} />
             </Box>
           </Grid>
           <Grid item xs={4}>
             <Box>
-              <FoodCard foodImgUrl={foodImgUrl[1]} />
+              <FoodCard foodImgUrl={foodImgUrl[1]} name={"Panasian"} />
             </Box>
           </Grid>
           <Grid item xs={4}>
             <Box>
-              <FoodCard foodImgUrl={foodImgUrl[2]} />
+              <FoodCard
+                foodImgUrl={foodImgUrl[2]}
+                name={"Peanut Butter sandwich"}
+              />
             </Box>
           </Grid>
           <Grid item xs={4}>
             <Box>
-              <FoodCard foodImgUrl={foodImgUrl[3]} />
+              <FoodCard foodImgUrl={foodImgUrl[3]} name={"Chocolate Brownie"} />
             </Box>
           </Grid>
           <Grid item xs={4}>
             <Box>
-              <FoodCard foodImgUrl={foodImgUrl[4]} />
+              <FoodCard foodImgUrl={foodImgUrl[4]} name={"Shrimp Pasta"} />
             </Box>
           </Grid>
           <Grid item xs={4}>
             <Box>
-              <FoodCard foodImgUrl={foodImgUrl[5]} />
+              <FoodCard foodImgUrl={foodImgUrl[5]} name={"Italian Sandwich"} />
             </Box>
           </Grid>
         </Grid>
